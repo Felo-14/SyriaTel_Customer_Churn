@@ -1,6 +1,6 @@
 # SyriaTel Customer Churn
 
-## Project Overview
+## Overview
 Customer churn is a critical issue for SyriaTel, directly affecting profitability and long-term business sustainability. This project aims to develop a machine learning-based churn prediction model to identify customers who are likely to leave. Therefore, through the analysis of historical customer data and predictive analysis, retention strategies can be applied to encourage customers to stay, thereby reducing churn rates and improving customer loyalty.
 
 ## Business Understanding
@@ -20,9 +20,9 @@ Identifying factors that influence churn, leading to targeted business intervent
 
   
 ## Data Understanding
-- The data we used for analysis are from:
+The data used for analysis is from:
     
-    **SyriaTel Customer Churn**: SyriaTel is a telecommunication company based in Syria, whose dataset of 20 features and 3,333 rows 
+**SyriaTel Customer Churn**: SyriaTel is a telecommunication company based in Syria, whose dataset contains 20 features and 3,333 rows.
 
 ## Tech Stack
 - Python
@@ -35,9 +35,11 @@ Identifying factors that influence churn, leading to targeted business intervent
 ## EDA
 
 ![Distribution of Customer Churn](/images/Customer%20Churn%20Distribution.png)
+
 The chart shows a significantly larger number of customers classified as `non-churners` (false), compared to `churners` (true).
 
 ![Churn Distribution by International Plan](/images/Churn%20Distribution%20by%20International%20Plan.png)
+
 Majority of customers do not have an international plan and within that group, the churn rate is significantly lower compared to the group with an international plan, which exhibits a higher proportion of churned customers relative to non-churned customers.
 
 
@@ -58,11 +60,13 @@ The Random Forest algorithm performed best with an accuracy of ~96%
 ![Final Classification Report](/images/Classification%20Report.png)
 
 ![ROC Curve](/images/ROC%20Curve.png)
+
 An AUC of 0.90 suggests strong predictive power
 
 ## Feature Selection
 
 The most important features were Total_Charges, Customer_Service_Calls.
+
 ![Top 10 Most Important Features For Churn Prediction](/images/Top%2010%20Most%20Important%20Features%20for%20Churn%20Prediction.png).
 
 
