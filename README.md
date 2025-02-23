@@ -65,7 +65,7 @@ An AUC of 0.90 suggests strong predictive power
 
 ## Feature Selection
 
-The most important features were Total_Charges, Customer_Service_Calls.
+The most important features were Total_Charges and Customer_Service_Calls.
 
 ![Top 10 Most Important Features For Churn Prediction](/images/Top%2010%20Most%20Important%20Features%20for%20Churn%20Prediction.png).
 
