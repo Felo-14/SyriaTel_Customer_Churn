@@ -1,4 +1,4 @@
-# SyriaTel_Customer_Churn
+# SyriaTel Customer Churn
 
 ## Project Overview
 Customer churn is a critical issue for SyriaTel, directly affecting profitability and long-term business sustainability. This project aims to develop a machine learning-based churn prediction model to identify customers who are likely to leave. Therefore, through the analysis of historical customer data and predictive analysis, retention strategies can be applied to encourage customers to stay, thereby reducing churn rates and improving customer loyalty.
