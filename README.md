@@ -54,14 +54,14 @@ Features used are shown below:
 
 ## Modeling - Random Forest
 
-The Random Forest algorithm performed best with an accuracy of ~96%
+The Random Forest algorithm performed best with an accuracy of ~96%.
 
 ![Confusion Matrix - Random Forest](/images/Confusion%20Matrix%20-%20Random%20Forest.png)
 ![Final Classification Report](/images/Classification%20Report.png)
 
 ![ROC Curve](/images/ROC%20Curve.png)
 
-An AUC of 0.90 suggests strong predictive power
+An AUC of 0.90 suggests strong predictive power.
 
 ## Feature Selection
 
