@@ -34,16 +34,37 @@ Identifying factors that influence churn, leading to targeted business intervent
 
 ## EDA
 
-**The visualization shows the Distribution of Customer Churn**
-![Distribution of Customer Churn](/images/Distribution%20of%20Customer%20Churn.png)
-* The chart shows a significantly larger number of customers classified as `non-churners` (false), compared to `churners` (true).
+![Distribution of Customer Churn](/images/Customer%20Churn%20Distribution.png)
+The chart shows a significantly larger number of customers classified as `non-churners` (false), compared to `churners` (true).
+
+![Churn Distribution by International Plan](/images/Churn%20Distribution%20by%20International%20Plan.png)
+Majority of customers do not have an international plan and within that group, the churn rate is significantly lower compared to the group with an international plan, which exhibits a higher proportion of churned customers relative to non-churned customers.
 
 
 ## Feature Engineering
+Features used are shown below:
 
-## Modeling
+- Total_Minutes
+- Total_Calls
+- Total_Charges
+- Charges_Per_Minute
+- Calls_Per_Minute
+
+## Modeling - Random Forest
+
+The Random Forest algorithm performed best with an accuracy of ~96%
+
+![Confusion Matrix - Random Forest](/images/Confusion%20Matrix%20-%20Random%20Forest.png)
+![Final Classification Report](/images/Classification%20Report.png)
+
+![ROC Curve](/images/ROC%20Curve.png)
+An AUC of 0.90 suggests strong predictive power
 
 ## Feature Selection
+
+The most important features were Total_Charges, Customer_Service_Calls.
+![Top 10 Most Important Features For Churn Prediction](/images/Top%2010%20Most%20Important%20Features%20for%20Churn%20Prediction.png).
+
 
 ## Conclusions
 
