@@ -1,1 +1,35 @@
+# Jupyter
 .ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environments
+.env
+.venv
+env/
+venv/
+.conda/
+
+# Data (optional - only if data is sensitive or too large)
+# Data/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Model artifacts (optional)
+*.pkl
+*.joblib
+*.h5
